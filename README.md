@@ -6,16 +6,16 @@ Memory allocator created for CMPSC473, Operating Systems, as project junior year
 
 ## Input File Format
 
-Malloc: [name] [NumOps] M [Size]
+Malloc: `[name] [NumOps] M [Size]`
 
-Free: [name] [Index] F 0
+Free: `[name] [Index] F 0`
 
 
 ## Output File Format
 
-Malloc: Start of Chunk [name] is: [address]
+Malloc: `Start of Chunk [name] is: [address]`
 
-Free: freed object [name] at [address]
+Free: `freed object [name] at [address]`
 
 
 ## Built With
